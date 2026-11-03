@@ -1,0 +1,10 @@
+    .blooming-flower {
+      position: absolute;
+      width: 180px;         /* ปรับขนาดความกว้างของรูปดอกไม้ */
+      height: 180px;        /* ปรับขนาดความสูงของรูปดอกไม้ */
+      object-fit: cover;
+      border-radius: 50%;   /* ทำให้รูปภาพเป็นทรงกลมนุ่มนวล (หรือลบออกถ้าใช้รูปภาพพื้นหลังใส PNG) */
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      transform: scale(0);
+      animation: bloomAnim 2.2s ease-in-out forwards;
+    }
